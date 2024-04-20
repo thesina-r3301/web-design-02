@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'yekan';
+  src: url('../font/Yekan.ttf');
+}
+
+* {
+  font-family: 'yekan';
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+::selection {
+  color: rgba(25, 135, 84, 1);
+  background-color: rgba(33, 37, 41, 1);
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Content */
+
+.logo img {
+  width: 170px;
+}
+
+.profile-img img {
+  width: 330px;
+  transition: all .7s;
+}
+
+.profile-img img:hover {
+  filter: grayscale(100);
+}
+
+.skills h3 {
+  font-family: monospace;
+}
+
+.LP {
+  height: 5px;
+}
+
+.portfolio-item img {
+  cursor: pointer;
+}
+
+.contact-info p {
+  font-family: system-ui;
+}
+
+.contact-info p.LP {
+  direction: ltr;
+}
+
+.LT textarea {
+  resize: none;
+}
